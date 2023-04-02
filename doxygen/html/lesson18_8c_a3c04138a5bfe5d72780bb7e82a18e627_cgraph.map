@@ -1,0 +1,12 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Programme Main obligatoire pour les programmes sous Linux (OpenGL en mode console)." alt="" coords="5,183,56,209"/>
+<area shape="rect" id="node2" href="$lesson18_8c.html#a8a5c79aa658c56b0e9abb9c539d844dd" title="Fonction DrawGLScene : fonction generant l&#39;affichage attendu avec des instructions OpenGL." alt="" coords="118,31,225,57"/>
+<area shape="rect" id="node4" href="$lesson18_8c.html#a01c1565f633296063acd943b63027c17" title="Fonction InitGL : fonction gerant les caractéristiques de base de la scéne lorsque avec des instructi..." alt="" coords="143,107,200,133"/>
+<area shape="rect" id="node7" href="$logger_8c.html#abd2d19eeef46a8184a2302d33c6c7397" title=" " alt="" coords="619,107,689,133"/>
+<area shape="rect" id="node8" href="$lesson18_8c.html#ae49b22892a1276b5e664963496a34177" title="Fonction keyPressed : fonction permettant de connaître quelle touche a été tapée au clavier." alt="" coords="126,208,217,235"/>
+<area shape="rect" id="node9" href="$lesson18_8c.html#a0fc5d8c6a4d182282b99c3c3e890b73e" title="Fonction ReSizeGLScene : fonction gerant les nouvelles dimensions de la scéne lorsque l&#39;utilisateur a..." alt="" coords="452,233,571,260"/>
+<area shape="rect" id="node10" href="$lesson18_8c.html#ab855b7746083d623a6fe71a9a5c76406" title="Fonction specialKeyPressed : fonction permettant de connaître quelle touche spéciale a été tapée au c..." alt="" coords="104,309,239,336"/>
+<area shape="rect" id="node3" href="$lesson18_8c.html#ab4de191c4550ef6fa48da9c986b9df30" title="Fonction DrawCube : fonction generant l&#39;affichage d&#39;un cube." alt="" coords="303,5,387,32"/>
+<area shape="rect" id="node5" href="$lesson18_8c.html#a85ddff9fc80b25a71838e2008c6c00ee" title="Fonction LoadGLTextures : fonction chargeant la texture à appliquer à un objet avec des instructions ..." alt="" coords="287,56,404,83"/>
+<area shape="rect" id="node6" href="$lesson18_8c.html#a1e57a44f938df68cadc0cdf69a91f3da" title="Fonction ImageLoad : fonction chargeant une image stockée dans un fichier BMP." alt="" coords="468,5,555,32"/>
+</map>

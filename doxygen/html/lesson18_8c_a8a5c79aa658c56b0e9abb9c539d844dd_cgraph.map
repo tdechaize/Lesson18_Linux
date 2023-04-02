@@ -1,0 +1,4 @@
+<map id="DrawGLScene" name="DrawGLScene">
+<area shape="rect" id="node1" title="Fonction DrawGLScene : fonction generant l&#39;affichage attendu avec des instructions OpenGL." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node2" href="$lesson18_8c.html#ab4de191c4550ef6fa48da9c986b9df30" title="Fonction DrawCube : fonction generant l&#39;affichage d&#39;un cube." alt="" coords="160,5,244,32"/>
+</map>
