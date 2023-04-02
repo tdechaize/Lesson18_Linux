@@ -1,0 +1,172 @@
+<html>
+<head>
+<title>lesson18 build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>02-04-2023 at 15:35.45</u><br />
+Build ended on: <u>02-04-2023 at 15:35.47</u><p />
+<b>-------------- Build: GNUC 32b Debug in lesson18 (compiler: GNU GCC Compiler 32b)---------------</b><br />
+gcc -Wall -g -D_DEBUG -DDEBUG -m32 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson18/src/lesson18.c -o objgcc32/Debug/src/lesson18.o<br />
+gcc -Wall -g -D_DEBUG -DDEBUG -m32 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson18/src/logger.c -o objgcc32/Debug/src/logger.o<br />
+gcc -L/usr/lib/i386-linux-gnu -o bingcc32/Debug/lesson18.exe objgcc32/Debug/src/lesson18.o objgcc32/Debug/src/logger.o  -m32  -lGL -lglut -lGLU -lm -lX11<br />
+Output file is bingcc32/Debug/lesson18.exe with size 36,93 KB<br />
+<b>-------------- Build: GNUC 32b Release in lesson18 (compiler: GNU GCC Compiler 32b)---------------</b><br />
+gcc -Wall -m32 -DNDEBUG -m32 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson18/src/lesson18.c -o objgcc32/Release/src/lesson18.o<br />
+gcc -Wall -m32 -DNDEBUG -m32 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson18/src/logger.c -o objgcc32/Release/src/logger.o<br />
+gcc -L/usr/lib/i386-linux-gnu -o bingcc32/Release/lesson18.exe objgcc32/Release/src/lesson18.o objgcc32/Release/src/logger.o  -m32 -m32  -lGL -lglut -lGLU -lm -lX11<br />
+Output file is bingcc32/Release/lesson18.exe with size 21,92 KB<br />
+<b>-------------- Build: GNUC 64b Debug in lesson18 (compiler: GNU GCC Compiler)---------------</b><br />
+gcc -Wall -g -D_DEBUG -DDEBUG -m64 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson18/src/lesson18.c -o objgcc64/Debug/src/lesson18.o<br />
+gcc -Wall -g -D_DEBUG -DDEBUG -m64 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson18/src/logger.c -o objgcc64/Debug/src/logger.o<br />
+gcc -L/usr/lib/x86_64-linux-gnu -o bingcc64/Debug/lesson18.exe objgcc64/Debug/src/lesson18.o objgcc64/Debug/src/logger.o  -m64  -lGL -lglut -lGLU -lm -lX11<br />
+Output file is bingcc64/Debug/lesson18.exe with size 42,95 KB<br />
+<b>-------------- Build: GNUC 64b Release in lesson18 (compiler: GNU GCC Compiler)---------------</b><br />
+gcc -Wall -O2 -DNDEBUG -m64 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson18/src/lesson18.c -o objgcc64/Release/src/lesson18.o<br />
+gcc -Wall -O2 -DNDEBUG -m64 -I/usr/include -c /home/thierry/Sources/Opengl/Lesson18/src/logger.c -o objgcc64/Release/src/logger.o<br />
+gcc -L/usr/lib/x86_64-linux-gnu -o bingcc64/Release/lesson18.exe objgcc64/Release/src/lesson18.o objgcc64/Release/src/logger.o  -s -m64  -lGL -lglut -lGLU -lm -lX11<br />
+Output file is bingcc64/Release/lesson18.exe with size 22,19 KB<br />
+<b>-------------- Build: CLANG 32b Debug in lesson18 (compiler: LLVM Clang Compiler 32b)---------------</b><br />
+clang -Wall -O0 -D_DEBUG -DDEBUG --target=i686-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson18/src/lesson18.c -o objclang32/Debug/src/lesson18.o<br />
+clang -Wall -O0 -D_DEBUG -DDEBUG --target=i686-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson18/src/logger.c -o objclang32/Debug/src/logger.o<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson18/src/lesson18.c:740:22: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]</font><br />
+       level_debug = '\0';<br />
+                     ^~~~<br />
+1 warning generated.<br />
+clang -L/usr/lib/clang/14.0.6/lib/linux -o binclang32/Debug/lesson18.exe objclang32/Debug/src/lesson18.o objclang32/Debug/src/logger.o  --target=i686-pc-linux-gnu  -lGL -lglut -lGLU -lm -lX11<br />
+Output file is binclang32/Debug/lesson18.exe with size 29,86 KB<br />
+<b>-------------- Build: CLANG 32b Release in lesson18 (compiler: LLVM Clang Compiler 32b)---------------</b><br />
+clang -Wall -O2 -DNDEBUG --target=i686-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson18/src/lesson18.c -o objclang32/Release/src/lesson18.o<br />
+clang -Wall -O2 -DNDEBUG --target=i686-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson18/src/logger.c -o objclang32/Release/src/logger.o<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson18/src/lesson18.c:740:22: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]</font><br />
+       level_debug = '\0';<br />
+                     ^~~~<br />
+1 warning generated.<br />
+clang -L/usr/lib/clang/14.0.6/lib/linux -o binclang32/Release/lesson18.exe objclang32/Release/src/lesson18.o objclang32/Release/src/logger.o  -s --target=i686-pc-linux-gnu  -lGL -lglut -lGLU -lm -lX11<br />
+Output file is binclang32/Release/lesson18.exe with size 21,85 KB<br />
+<b>-------------- Build: CLANG 64b Debug in lesson18 (compiler: LLVM Clang Compiler)---------------</b><br />
+clang -Wall -O0 -D_DEBUG -DDEBUG --target=x86_64-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson18/src/lesson18.c -o objclang64/Debug/src/lesson18.o<br />
+clang -Wall -O0 -D_DEBUG -DDEBUG --target=x86_64-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson18/src/logger.c -o objclang64/Debug/src/logger.o<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson18/src/lesson18.c:740:22: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]</font><br />
+       level_debug = '\0';<br />
+                     ^~~~<br />
+1 warning generated.<br />
+clang -L/usr/lib/clang/14.0.6/lib/linux -o binclang64/Debug/lesson18.exe objclang64/Debug/src/lesson18.o objclang64/Debug/src/logger.o  --target=x86_64-pc-linux-gnu  -lGL -lglut -lGLU -lm -lX11<br />
+Output file is binclang64/Debug/lesson18.exe with size 32,00 KB<br />
+<b>-------------- Build: CLANG 64b Release in lesson18 (compiler: LLVM Clang Compiler)---------------</b><br />
+clang -Wall -O2 -DNDEBUG --target=x86_64-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson18/src/lesson18.c -o objclang64/Release/src/lesson18.o<br />
+clang -Wall -O2 -DNDEBUG --target=x86_64-pc-linux-gnu -I/usr/lib/clang/14.0.6/include -c /home/thierry/Sources/Opengl/Lesson18/src/logger.c -o objclang64/Release/src/logger.o<br />
+<font color="#0000ff">/home/thierry/Sources/Opengl/Lesson18/src/lesson18.c:740:22: warning: expression which evaluates to zero treated as a null pointer constant of type 'char *' [-Wnon-literal-null-conversion]</font><br />
+       level_debug = '\0';<br />
+                     ^~~~<br />
+1 warning generated.<br />
+clang -L/usr/lib/clang/14.0.6/lib/linux -o binclang64/Release/lesson18.exe objclang64/Release/src/lesson18.o objclang64/Release/src/logger.o  -s --target=x86_64-pc-linux-gnu  -lGL -lglut -lGLU -lm -lX11<br />
+Output file is binclang64/Release/lesson18.exe with size 22,94 KB<br />
+<b>-------------- Build: Archive in lesson18 (compiler: GNU GCC Compiler)---------------</b><br />
+rm --interactive=never *.7z || true<br />
+rm --interactive=never *.tar || true<br />
+rm: impossible de supprimer '*.tar': Aucun fichier ou dossier de ce type<br />
+python3 /home/thierry/Sources/tools/Size_exec.py lesson18<br />
+        Tableau récapitulatif de la taille des exécutables générés pour le projet : lesson18<br />
+  Debug GCC 32b     :  36.9 KB et sa date dernière modification Sun Apr  2 15:35:45 2023 -&gt; ./bingcc32/Debug/lesson18.exe.<br />
+  Release GCC 32b   :  21.9 KB et sa date dernière modification Sun Apr  2 15:35:45 2023 -&gt; ./bingcc32/Release/lesson18.exe.<br />
+  Debug GCC 64b     :  42.9 KB et sa date dernière modification Sun Apr  2 15:35:46 2023 -&gt; ./bingcc64/Debug/lesson18.exe.<br />
+  Release GCC 64b   :  22.2 KB et sa date dernière modification Sun Apr  2 15:35:46 2023 -&gt; ./bingcc64/Release/lesson18.exe.<br />
+  Debug CLANG 32b   :  29.9 KB et sa date dernière modification Sun Apr  2 15:35:46 2023 -&gt; ./binclang32/Debug/lesson18.exe.<br />
+  Release CLANG 32b :  21.8 KB et sa date dernière modification Sun Apr  2 15:35:46 2023 -&gt; ./binclang32/Release/lesson18.exe.<br />
+  Debug CLANG 64b   :  32.0 KB et sa date dernière modification Sun Apr  2 15:35:46 2023 -&gt; ./binclang64/Debug/lesson18.exe.<br />
+  Release CLANG 64b :  22.9 KB et sa date dernière modification Sun Apr  2 15:35:47 2023 -&gt; ./binclang64/Release/lesson18.exe.<br />
+python3 /home/thierry/Sources/tools/Calc_checksums.py lesson18<br />
+Tableau récapitulatif des différents checksums générés pour le projet : lesson18<br />
+Calcul des cheksums du fichier : ./bingcc32/Debug/lesson18.exe.<br />
+Checksum CRC32  is 45266627.<br />
+Checksum MD5 is 708559efd29ffdf753891ad79dacae4e.<br />
+Checksum SHA256 is 63d2cc3a710d9a3daa9d9346b763712376458ce7a35263118063049fb85c362a.<br />
+Checksum SHA512 is fa17fed58b32fc5d2006f1037d6d1b5c0b2dff1b2e2a5b9b330efc1301c27ed16b61aad0481ccddca9429ff48e4d0a18f688f0ff0c1d5c3f7b50431de066e035.<br />
+Checksum RipeMD160 is 53d2c8a3cc67f08697f5c2de5848fb8820ccdc6c.<br />
+Checksum BLAKE2B is 0eb73e26250003c28ab1a9d5d10dc215af3470a51ed4adfcaef85f9feb2e8db7dbd37b3a0485a2763e537ff61bd64c4b278ef14f9ab66486fa01c933bbcbb016.<br />
+Calcul des cheksums du fichier : ./bingcc32/Release/lesson18.exe.<br />
+Checksum CRC32  is 3c3513b4.<br />
+Checksum MD5 is 421f03aa4d31807a2f3ab6811fa3de63.<br />
+Checksum SHA256 is 2f97d71cbabe1b1a1701920be6ad842c9aed7593e535b563c555e703c462cc94.<br />
+Checksum SHA512 is 43bba2a1efbd3ad4c5282c560cd5d19ff46e08c34b1b4c1f0d748e0ff6434c01e7508f65d93f05495f1969f1f25c83fb79ec58f673d9636b834726981ad4488d.<br />
+Checksum RipeMD160 is 6fbb8082277d09b31ae55f3836ad1c00de53a2ec.<br />
+Checksum BLAKE2B is a8e405a962b699e39bc1b0d0a87d777d1003204a85eda2b94b80e25f2404c60238d18adc628aed019b5281c38fddfbeedebb5be722fd28f1844aed85269b083e.<br />
+Calcul des cheksums du fichier : ./bingcc64/Debug/lesson18.exe.<br />
+Checksum CRC32  is 4fb411f1.<br />
+Checksum MD5 is 6ae2055d322fdaabf67e09f8f8340d6f.<br />
+Checksum SHA256 is 2523f0732fea56ea6ec34c23d8258181ddd2340e92a3f8fdb7c0c872d29e9198.<br />
+Checksum SHA512 is 7e9f08acf32d76bf02c91401aa72772f81e04eb04a716c757494514a713b4f323211a9f4bd60c3018c35a2b0e4f80558483dfd0a600ed8da2cadbc3afd065bc7.<br />
+Checksum RipeMD160 is 5726e23336a00965c360a0bc510061529077bdde.<br />
+Checksum BLAKE2B is 02e5a3ee91be5feef48fd1767c6174c55c5cb352dc39e834e2712456b43302b3ec97f6b0ee41b654e9eaeb2b4f147afae27bd4abda76ed703ab901930132844e.<br />
+Calcul des cheksums du fichier : ./bingcc64/Release/lesson18.exe.<br />
+Checksum CRC32  is 7271c2e5.<br />
+Checksum MD5 is 1ad2526e9f2218ce93c047b8cae42c0b.<br />
+Checksum SHA256 is 61a3b46477095bd38941087d8b95ebed024c29a5742004da88805d3d1b7bd09e.<br />
+Checksum SHA512 is a1b09466663516ab0bbc1f537bd29c5544586a426e6ac98c51206276ae0412bb88311a3385d2cafe1ddc84e7fb3589344e93fa979c39e3e46109e8d1f2aaf280.<br />
+Checksum RipeMD160 is a2b75ae5a6ca9109682f655a3db5374c97761fc3.<br />
+Checksum BLAKE2B is a7545907600cb612fadec1e14e2524c3c5b743e68202e4010f13ccffa4d97893421d447a3b46e8f589165f2cfeaf656c4a2bed05ed0de7186eab6d2676d69e24.<br />
+Calcul des cheksums du fichier : ./binclang32/Debug/lesson18.exe.<br />
+Checksum CRC32  is 9d6e20ab.<br />
+Checksum MD5 is c4d383947d73ded0d42e19a1f152060e.<br />
+Checksum SHA256 is 775adfcb3fe75ff61168762605c0e5d2e2ee68881e0842344d426ce4b8ab27f8.<br />
+Checksum SHA512 is d6b19a57584740b170ae219ebc341c278ce0dbeb4b41af5369aa2280b56251c9d629a7c31709f3436754df0ba1bc665c0eee1902cda64f314e4e1bf5c683e41f.<br />
+Checksum RipeMD160 is 3f93cd608b4b39ae2c90fca88f1c5f6c66c7eb76.<br />
+Checksum BLAKE2B is 8bf9f54ccfc2fe5630f96a323a8e3fcde7759562066a324a995283936a2b17de86e025b37419470c74aefdd88d26bf5e62dab73bed9458c39b66e2f5c7d23289.<br />
+Calcul des cheksums du fichier : ./binclang32/Release/lesson18.exe.<br />
+Checksum CRC32  is e6b49b53.<br />
+Checksum MD5 is 0d0319363001499ddf8f8246dd130663.<br />
+Checksum SHA256 is c6b60d5667a7f8c1d13bc9406a064ee71a1d63c0ab1803e1402444c4c3f3bbce.<br />
+Checksum SHA512 is 0825a87fdba865299b0da8c05d727b06b598085682ba8b05764c632a816d39367057310db9a124927ddd2c02789e1d327d4d6ba45ab9035434f7305d7991340b.<br />
+Checksum RipeMD160 is c8b8e3ad94a533c569d74215e2008099c08276e7.<br />
+Checksum BLAKE2B is 40d139cec8b7bb50fd55b6fd5ec01ebb619191ca38c616021abad1568364ebcd634805b495d57e68484da299705b460004a864a74c3e9a3849be61cf65859496.<br />
+Calcul des cheksums du fichier : ./binclang64/Debug/lesson18.exe.<br />
+Checksum CRC32  is 8ca9c031.<br />
+Checksum MD5 is de01da55d1ac1235238c344c99e8156f.<br />
+Checksum SHA256 is d969070a349df922bd4e51b12beb4258cfc2412fd9c84d475f9f760a9dc4cdbb.<br />
+Checksum SHA512 is 384187eba4788c5bfa6dd169a045c27466232a70ea84cf3671196cf70fd49e6a9e99ab28a374185837622b075780aaa47e267fcfcbb31c54ba31d16e37f97793.<br />
+Checksum RipeMD160 is 8bb2911179bfc1288f707f539d6ffccb5fb232ef.<br />
+Checksum BLAKE2B is 62363a7b189ae64b3fe4df27445da3dbe8060e334127ad9fead66b126c016d55e70dfd2d223d50ab48a0ef3a9ec2c1aa8bed3d4aa66a5bdfa03126b339db4ff3.<br />
+Calcul des cheksums du fichier : ./binclang64/Release/lesson18.exe.<br />
+Checksum CRC32  is 4e58075a.<br />
+Checksum MD5 is 793bb94c04fe37f9d9305dad8778d16a.<br />
+Checksum SHA256 is fa1ae653cd25b45ae9ba94974d8c00c417aca12ac190b53c8108e9d0a533943a.<br />
+Checksum SHA512 is f6f1523db3eadedf9f11c28c2aa819a8367bf5ef8dc8225dd6a783f5deda8e8954ef5972c0b855340acf8d39b33d21d4d9a40cd4a9f59183fcc79b2545918f92.<br />
+Checksum RipeMD160 is eb821548fdfe57f02c746e3482977922c721a4d2.<br />
+Checksum BLAKE2B is 4e58ff90f142a1fdda224d31411b37fb821b303165776475ab0da82842562c56c9bd2aa8d6dd7be49560c5fa27b4d70b4b81c308e53f288763a4dd8fb96f351f.<br />
+7z a lesson18_""date +"%d-%m-%Y"""_src.7z src/* res/* data/* build.cmake/* build.shell/* *.bat *.txt *.html *.md doxygen/* doc/* *.cbp *.workspace '-x!*.bak' -mhe=on -p"lesson18_tde@03!"<br />
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21<br />
+p7zip Version 16.02 (locale=fr_FR.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz (A0652),ASM,AES-NI)<br />
+Scanning the drive:<br />
+86 folders, 595 files, 3201146 bytes (3127 KiB)<br />
+Creating archive: lesson18_02-04-2023_src.7z<br />
+Items to compress: 681<br />
+Files read from disk: 595<br />
+Archive size: 573497 bytes (561 KiB)<br />
+Everything is Ok<br />
+7z a -ttar lesson18_""date +"%d-%m-%Y"""_all.tar * '-x!*.bak'  '-x!*.7z'<br />
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21<br />
+p7zip Version 16.02 (locale=fr_FR.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz (A0652),ASM,AES-NI)<br />
+Scanning the drive:<br />
+127 folders, 690 files, 4168953 bytes (4072 KiB)<br />
+Creating archive: lesson18_02-04-2023_all.tar<br />
+Items to compress: 817<br />
+Files read from disk: 817<br />
+Archive size: 4792832 bytes (4681 KiB)<br />
+Everything is Ok<br />
+7z a lesson18_""date +"%d-%m-%Y"""_all.7z *_all.tar -mhe=on -p"lesson18_tde@03!"<br />
+7-Zip [64] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21<br />
+p7zip Version 16.02 (locale=fr_FR.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz (A0652),ASM,AES-NI)<br />
+Scanning the drive:<br />
+1 file, 4792832 bytes (4681 KiB)<br />
+Creating archive: lesson18_02-04-2023_all.7z<br />
+Items to compress: 1<br />
+Files read from disk: 1<br />
+Archive size: 698874 bytes (683 KiB)<br />
+Everything is Ok<br />
+rm --interactive=never *.tar || true<br />
+<font color="#0000ff">Process terminated with status 0 (0 minute(s), 2 second(s))</font><br />
+<font color="#0000ff">0 error(s), 4 warning(s) (0 minute(s), 2 second(s))</font><br />
+</tt>
+</body>
+</html>
